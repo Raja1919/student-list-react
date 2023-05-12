@@ -1,0 +1,36 @@
+.table-wrapper {
+  height: auto;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.edit {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: rgb(8, 215, 8);
+  border-radius: 10px;
+}
+.delete {
+  padding: 5px 10px;
+  background-color: red;
+  border-radius: 10px;
+}
+.edit:hover {
+  background-color: darkgreen;
+}
+.delete:hover {
+  background-color: darkred;
+}
+.back {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back:hover {
+  background-color: #0069d9;
+}
